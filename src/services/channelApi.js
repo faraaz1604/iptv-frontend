@@ -1,4 +1,3 @@
-// const API = 'http://localhost:8080/api/channels';
 
 const API_BASE = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8080';
 const API = `${API_BASE}/api/channels`;

@@ -7,12 +7,6 @@ const AUTH_API = `${API_BASE}/api/auth`;
 console.log("🌍 API BASE URL:", process.env.REACT_APP_API_BASE_URL);
 
 
-// Rest of your code remains the same
-
-// const API = "http://localhost:8080/api/channels";
-// const AUTH_API = "http://localhost:8080/api/auth";
-
-
 // ================= BASE64URL DECODER =================
 function base64UrlDecode(str) {
   let output = str.replace(/-/g, "+").replace(/_/g, "/");
